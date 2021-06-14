@@ -2,5 +2,5 @@
         var getUrlString = location.href ;
         var url = new URL(getUrlString) ;
         var url = url.searchParams.get('url') ;
-          location.replace(url.searchParams.get('url'))
+        location.href = url.searchParams.get('url') ;
 </script>
